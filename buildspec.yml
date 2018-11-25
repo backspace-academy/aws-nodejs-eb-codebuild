@@ -28,12 +28,12 @@ artifacts:
     - app.js
     - package.json
     - views/*
-    - static/*
-    - node_modules/async/*
-    - node_modules/lodash/*
-    - node_modules/pug/*
-    - node_modules/http/*
-    - node_modules/aws-sdk/*
-    - node_modules/express/*
-    - node_modules/body-parser/*
-    - node_modules/querystring/*
+    - static/**/*
+    - node_modules/async/**/*
+    - node_modules/lodash/**/*
+    - node_modules/pug/**/*
+    - node_modules/http/**/*
+    - node_modules/aws-sdk/**/*
+    - node_modules/express/**/*
+    - node_modules/body-parser/**/*
+    - node_modules/querystring/**/*
