@@ -3,6 +3,8 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 10
     commands:
       - echo Installing Mocha...
       - npm install -g mocha
