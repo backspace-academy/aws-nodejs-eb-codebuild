@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
     res.status(200).end();
 })
 
-var port = process.env.PORT || 3000
+var port = process.env.PORT || 5000
 
 var server = app.listen(port, function () {
   console.log('Server running at http://127.0.0.1:' + port + '/')
